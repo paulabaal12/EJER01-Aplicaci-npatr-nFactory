@@ -1,5 +1,4 @@
 public class cafeFactory {
-    public class CoffeeFactory {
         public cafes createCoffee(int type) {
             cafes coffee = null;
     
@@ -32,6 +31,5 @@ public class cafeFactory {
     
             return coffee;
         }
-    }
     
 }
