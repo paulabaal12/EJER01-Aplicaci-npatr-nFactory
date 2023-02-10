@@ -21,5 +21,6 @@ public abstract class Restaurante {
     public void settipo(String tipo){
         this.tipo = tipo;
     }
+    public void ImprimirOpciones(){};
     
 }
