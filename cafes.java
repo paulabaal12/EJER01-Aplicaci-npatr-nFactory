@@ -58,4 +58,7 @@ public class cafes {
     public void setMoca(String moca) {
         this.moca = moca;
     }
+    public void makecofee(){
+
+    }
 }
