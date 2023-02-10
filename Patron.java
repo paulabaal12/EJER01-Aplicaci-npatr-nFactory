@@ -8,6 +8,7 @@ public class Patron {
         int op1=0;
         Boolean continuar=true;
         cafeFactory cafe= new cafeFactory();
+        cafes c = new cafes(); 
         //CoffeeFactory cafe= new CoffeeFactory();
         while(continuar){
             System.out.println("Bienvenido al Cafe");
@@ -19,7 +20,8 @@ public class Patron {
                 continuar=false;
             }
             else{
-                cafe.createCoffee(op1);
+               c = cafe.createCoffee(op1);
+               c.makecofee(); 
             }
             
         }
