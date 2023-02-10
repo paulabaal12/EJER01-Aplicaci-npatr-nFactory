@@ -1,4 +1,5 @@
 public class Menus extends Restaurante{
+    /*Muestra el menú al usuario  */
     @Override
     public void ImprimirOpciones(){
         System.out.println("Bienvenido");

@@ -1,4 +1,5 @@
 public abstract class Restaurante {
+    /*Clase restaurante, describe lo que va a llevar las otras clases  */
     private String Platillo;
     private String precio;
     private String tipo;
