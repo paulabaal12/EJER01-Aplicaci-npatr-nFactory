@@ -1,4 +1,5 @@
 public class cafes {
+
     public String expresso;
     public String americano;
     public String latte;
@@ -7,6 +8,7 @@ public class cafes {
     public String frappe;
     public String caramel_macchiato;
     public String moca;
+
     
     public String getExpresso() {
         return expresso;

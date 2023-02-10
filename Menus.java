@@ -2,11 +2,11 @@ public class Menus extends Restaurante{
     /*Muestra el menú al usuario  */
     @Override
     public void ImprimirOpciones(){
-        System.out.println("Bienvenido");
+        System.out.println("Bienvenido a nuestra cafeteria ");
         System.out.println("Seleccione la opción que desea");
-        System.out.println("1. Menu dulce");
-        System.out.println("2. Menu de almuerzos");
-        System.out.println("3. Menu de cenas");
+        System.out.println("1. ");
+        System.out.println("2. ");
+        System.out.println("3. ");
     }
     
 }
